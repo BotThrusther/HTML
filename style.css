@@ -1,0 +1,17 @@
+*{
+    background-color: #eee;
+}
+
+h1, h2{
+    color: red;
+}
+
+p{
+    color: blue;
+    font-size: 1.2em;
+}
+
+.skils{
+    color: blueviolet;
+    font-size: 150px;
+}
