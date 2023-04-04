@@ -28,7 +28,7 @@ p{
 
 .grandparent{
     border-top: 5px red solid;
-    border-bottom: 5px blue solid;
+    border-left: 5px blue solid;
     border-right: 5px yellow solid;
     border-bottom: 5px green solid;
     padding: 10px 20px 30px 40px;
@@ -46,3 +46,49 @@ ul{
     box-sizing: border-box;
     width: 300px;
 }
+
+.box-1 h3{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#myform{
+    background-color: green;
+    color: blanchedalmond;
+    padding: 50px;
+    margin: 10px 15px;
+}
+
+#myform input[type="text"]{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+
+#myform input[type="submit"], .button{
+    padding: 8px;
+    border: none;
+    background-color: darkolivegreen;
+    color: chartreuse;
+}
+
+/* a {
+    text-decoration: none;
+    color: wheat;
+
+} */
+
+a:visited {
+    color: crimson;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
